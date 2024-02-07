@@ -1,0 +1,20 @@
+// コンテナ上のVSCodeの設定
+{
+    // VSCode上で表示される名前
+    "name": "kamon_app_server",
+    "dockerComposeFile": "../docker-compose.yml",
+    // docker-composeのサービス
+    "service": "app",
+    "workspaceFolder": "/usr/local/go/src/app",
+    // VSCodeの設定
+    "customizations": {
+      "vscode": {
+        "extensions": [
+            "golang.go",
+            "ckolkman.vscode-postgres"
+        ],
+        "settings": {}
+      }
+    }
+  }
+  
