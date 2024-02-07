@@ -3,3 +3,5 @@
 - DB_DATABASE 
 - DB_USER 
 - DB_PASSWORD 
+
+###　vscodeで開きGO拡張機能に依存したパッケージのインストールを促されるので従う
